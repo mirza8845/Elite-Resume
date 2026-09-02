@@ -1,0 +1,3 @@
+import { PolicyPage } from '@/components/policy-page';
+export const metadata = { title: 'Refund policy' };
+export default function RefundsPage() { return <PolicyPage title="Refund policy" intro="A clear approach to revisions, support, and refund requests." sections={[['Revisions', 'Eligible packages include the stated number of revisions. Feedback should be clear, factual, and connected to the original service scope.'], ['Refund requests', 'Refund eligibility depends on service status and the final terms presented at checkout.'], ['Delivery issues', 'If a file cannot be accessed or a generation issue occurs, contact support so the issue can be investigated and resolved.']]} />; }
