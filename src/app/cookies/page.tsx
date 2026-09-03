@@ -1,0 +1,3 @@
+import { PolicyPage } from '@/components/policy-page';
+export const metadata = { title: 'Cookie policy' };
+export default function CookiesPage() { return <PolicyPage title="Cookie policy" intro="How cookies and similar technologies may be used to support a reliable, useful website." sections={[['Essential cookies', 'Essential cookies support secure sessions, basic functionality, and protection against abuse.'], ['Analytics', 'With consent where required, analytics may help us understand page usage, conversion activity, and website performance.'], ['Managing cookies', 'You can manage cookies through browser settings. The final production site will present any required consent controls.']]} />; }
